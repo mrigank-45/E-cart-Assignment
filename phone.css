@@ -1,0 +1,47 @@
+/* Other css for responsiveness is written in style.css only */
+
+.nav-items .search {
+    display: none;
+}
+.nav-items a {
+    display: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    width: 50%;
+}
+
+.poster-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poster-section img {
+    height: 200px;
+    width: 50%;
+    margin: 0% 26%;
+}
+.flex-c h1 {
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+.flex-c p {
+    font-size: 8px;
+}
+
+.flex-c button {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
